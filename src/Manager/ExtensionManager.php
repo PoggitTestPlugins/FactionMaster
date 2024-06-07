@@ -37,7 +37,6 @@ use ShockedPlot7560\FactionMaster\Extension\Extension;
 use ShockedPlot7560\FactionMaster\FactionMaster as Main;
 
 class ExtensionManager {
-
 	/** @var Extension[] */
 	private static $extensions = [];
 

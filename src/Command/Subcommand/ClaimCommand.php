@@ -47,7 +47,6 @@ use function count;
 use function floor;
 
 class ClaimCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_CLAIM_DESCRIPTION";
 	}

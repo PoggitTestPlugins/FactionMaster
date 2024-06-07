@@ -33,7 +33,6 @@
 namespace ShockedPlot7560\FactionMaster\Route;
 
 class RouterFactory {
-
 	/** @var array */
 	private static $list;
 

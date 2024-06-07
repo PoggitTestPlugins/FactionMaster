@@ -33,7 +33,6 @@
 namespace ShockedPlot7560\FactionMaster\Button\Collection;
 
 class CollectionFactory {
-
 	/** @var array */
 	private static $list;
 

@@ -41,7 +41,6 @@ use function call_user_func_array;
 use function count;
 
 class Collection implements CollectionSlug {
-
 	/** @var Button[] */
 	protected $buttonsList;
 	/** @var string */

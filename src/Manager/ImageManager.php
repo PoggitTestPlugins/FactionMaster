@@ -41,7 +41,6 @@ use function is_file;
 use function strtolower;
 
 class ImageManager {
-
 	/** @var boolean */
 	private static $activeImage = false;
 

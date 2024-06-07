@@ -46,7 +46,6 @@ use function count;
 use function floor;
 
 class SethomeCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_SETHOME_DESCRIPTION";
 	}

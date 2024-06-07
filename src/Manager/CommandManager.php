@@ -39,6 +39,7 @@ use ShockedPlot7560\FactionMaster\Command\Subcommand\DelhomeCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\ExtensionCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\FactionCreateCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\FactionManageCommand;
+use ShockedPlot7560\FactionMaster\Command\Subcommand\FactionSubCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\FactionTopCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\HelpCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\HomeCommand;
@@ -52,11 +53,8 @@ use ShockedPlot7560\FactionMaster\Command\Subcommand\SethomeCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\SettingsCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\SynchroCommand;
 use ShockedPlot7560\FactionMaster\Command\Subcommand\UnclaimCommand;
-use ShockedPlot7560\FactionMaster\Command\Subcommand\FactionSubCommand;
-use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class CommandManager {
-
 	/** @var FactionSubCommand[] */
 	private static $commands = [];
 

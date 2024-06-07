@@ -43,7 +43,6 @@ use function count;
 use function is_array;
 
 abstract class Button implements ButtonSlug {
-
 	/** @var string */
 	private $slug;
 	/** @var callable */

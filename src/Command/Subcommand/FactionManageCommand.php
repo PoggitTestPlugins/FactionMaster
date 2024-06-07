@@ -40,7 +40,6 @@ use ShockedPlot7560\FactionMaster\Route\RouteSlug;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class FactionManageCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_MANAGE_DESCRIPTION";
 	}

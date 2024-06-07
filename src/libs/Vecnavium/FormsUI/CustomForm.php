@@ -70,17 +70,11 @@ class CustomForm extends Form {
 		$this->labelMap[] = $label ?? count($this->labelMap);
 	}
 
-	/**
-	 * @param int $default
-	 */
 	public function addDropdown(string $text, array $options, int $default = null, ?string $label = null) : void {
 		$this->addContent(["type" => "dropdown", "text" => $text, "options" => $options, "default" => $default]);
 		$this->labelMap[] = $label ?? count($this->labelMap);
 	}
 
-	/**
-	 * @param string $default
-	 */
 	public function addInput(string $text, string $placeholder = "", string $default = null, ?string $label = null) : void {
 		$this->addContent(["type" => "input", "text" => $text, "placeholder" => $placeholder, "default" => $default]);
 		$this->labelMap[] = $label ?? count($this->labelMap);

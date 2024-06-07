@@ -52,7 +52,6 @@ use function strlen;
 use function substr;
 
 class MapCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_MAP_DESCRIPTION";
 	}

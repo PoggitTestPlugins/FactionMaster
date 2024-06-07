@@ -41,7 +41,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function floor;
 
 class RemoveFlagCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_REMOVE_FLAG";
 	}

@@ -43,7 +43,6 @@ use function floor;
 use function strlen;
 
 class InfoCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_INFO_DESCRIPTION_GLOBAL";
 	}

@@ -34,7 +34,6 @@ namespace ShockedPlot7560\FactionMaster\Route;
 use ShockedPlot7560\FactionMaster\Database\Entity\UserEntity;
 
 abstract class VictimBase extends RouteBase {
-
 	/** @var UserEntity */
 	protected $victim;
 

@@ -41,7 +41,6 @@ use ShockedPlot7560\FactionMaster\Route\RouteSlug;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class HomeCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_HOME_DESCRIPTION";
 	}

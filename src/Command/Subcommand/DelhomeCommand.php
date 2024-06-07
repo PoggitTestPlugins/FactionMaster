@@ -43,7 +43,6 @@ use ShockedPlot7560\FactionMaster\Task\MenuSendTask;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class DelhomeCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_DELHOME_DESCRIPTION";
 	}

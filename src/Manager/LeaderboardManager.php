@@ -45,7 +45,6 @@ use function join;
 use function strtolower;
 
 class LeaderboardManager {
-
 	/** @var Main */
 	private static $main;
 	/** @var FloatingTextParticle[][] */

@@ -38,7 +38,6 @@ use ShockedPlot7560\FactionMaster\Task\SyncServerTask;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class SynchroCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_SYNCHRO";
 	}

@@ -32,21 +32,19 @@
 
 namespace ShockedPlot7560\FactionMaster\Command\Subcommand;
 
-use pocketmine\command\CommandSender;
 use ShockedPlot7560\FactionMaster\libs\CortexPE\Commando\BaseSubCommand;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 abstract class FactionSubCommand extends BaseSubCommand {
-
 	public function __construct(string $name, string $description = "", array $aliases = []) {
-		if($description === "") {
+		if ($description === "") {
 			$description = Utils::getText("", $this->getId());
 		}
 		parent::__construct($name, $description, $aliases);
 	}
 
-	protected function prepare(): void { }
+	protected function prepare(): void {
+	}
 
 	abstract public function getId(): string;
-
 }

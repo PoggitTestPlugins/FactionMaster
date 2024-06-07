@@ -155,29 +155,29 @@ class ManageLevelRoute extends RouteBase {
 			}
 
 			switch ($data) {
-			case 0:
-				$content = "";
-				if (!is_array($Data['cost'])) {
-					$Data['cost'] = [];
-				}
+				case 0:
+					$content = "";
+					if (!is_array($Data['cost'])) {
+						$Data['cost'] = [];
+					}
 
-				foreach ($Data['cost'] as $cost) {
-					$reward = RewardFactory::get($cost['type']);
-					$content .= "\n §5>> §f" . Utils::getText($player->getName(), $reward->getName($player->getName())) . " x" . $cost['value'];
-				}
-				if ($levelReady === true) {
-					Utils::processMenu(RouterFactory::get(self::CONFIRMATION_ROUTE), $player, [
-						$this->callLevelUp($faction->getName()),
-						Utils::getText($player->getName(), "CONFIRMATION_TITLE_LEVEL_UP"),
-						Utils::getText($player->getName(), "CONFIRMATION_CONTENT_LEVEL_UP", ['cost' => $content]),
-					]);
-				} else {
-					Utils::processMenu($this, $player);
-				}
-				break;
-			case 1:
-				Utils::processMenu($backMenu, $player);
-				break;
+					foreach ($Data['cost'] as $cost) {
+						$reward = RewardFactory::get($cost['type']);
+						$content .= "\n §5>> §f" . Utils::getText($player->getName(), $reward->getName($player->getName())) . " x" . $cost['value'];
+					}
+					if ($levelReady === true) {
+						Utils::processMenu(RouterFactory::get(self::CONFIRMATION_ROUTE), $player, [
+							$this->callLevelUp($faction->getName()),
+							Utils::getText($player->getName(), "CONFIRMATION_TITLE_LEVEL_UP"),
+							Utils::getText($player->getName(), "CONFIRMATION_CONTENT_LEVEL_UP", ['cost' => $content]),
+						]);
+					} else {
+						Utils::processMenu($this, $player);
+					}
+					break;
+				case 1:
+					Utils::processMenu($backMenu, $player);
+					break;
 			}
 		};
 	}

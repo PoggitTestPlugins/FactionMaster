@@ -41,7 +41,6 @@ use function is_string;
 use function json_decode;
 
 class FactionEntity extends EntityDatabase {
-
 	/**
 	 * DO NOT USE THIS CONSTANT
 	 * @see getName()

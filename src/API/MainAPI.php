@@ -63,7 +63,6 @@ use function json_encode;
 use function pow;
 
 class MainAPI {
-
 	/** @var FactionEntity[] */
 	public static $factions = [];
 	/** @var UserEntity[] */

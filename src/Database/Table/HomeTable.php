@@ -37,7 +37,6 @@ use ShockedPlot7560\FactionMaster\Manager\DatabaseManager;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class HomeTable implements TableInterface {
-
 	/** @var PDO */
 	private $PDO;
 

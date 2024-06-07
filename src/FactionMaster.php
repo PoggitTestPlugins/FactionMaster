@@ -63,7 +63,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function version_compare;
 
 class FactionMaster extends PluginBase implements Listener {
-
 	/** @var Plugin */
 	public $formUI;
 	/** @var int[] */

@@ -33,7 +33,6 @@
 namespace ShockedPlot7560\FactionMaster\Database\Entity;
 
 abstract class EntityDatabase {
-
 	/**
 	 * DO NOT USE THIS CONSTANT
 	 * @see getId()

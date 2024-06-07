@@ -35,7 +35,6 @@ namespace ShockedPlot7560\FactionMaster\Database\Entity;
 use ShockedPlot7560\FactionMaster\FactionMaster as Main;
 
 trait ServerIp {
-
 	/** @var string */
 	public $server;
 

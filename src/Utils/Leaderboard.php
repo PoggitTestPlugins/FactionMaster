@@ -43,7 +43,6 @@ use function count;
 use function explode;
 
 class Leaderboard {
-
 	/** @var string */
 	private $slug;
 	/** @var Position */

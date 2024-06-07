@@ -54,7 +54,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function count;
 
 class SyncServerManager {
-
 	/** @var array */
 	private static $list;
 

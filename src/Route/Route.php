@@ -37,7 +37,6 @@ use ShockedPlot7560\FactionMaster\Button\Collection\Collection;
 use ShockedPlot7560\FactionMaster\Database\Entity\UserEntity;
 
 interface Route {
-
 	/**
 	 * Return the slug which will be use to call the action
 	 * @return string The slug

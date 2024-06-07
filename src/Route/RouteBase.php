@@ -37,7 +37,6 @@ use ShockedPlot7560\FactionMaster\Database\Entity\FactionEntity;
 use ShockedPlot7560\FactionMaster\Database\Entity\UserEntity;
 
 abstract class RouteBase implements Route, RouteSlug {
-
 	/** @var Collection|null */
 	protected $collection;
 	/** @var UserEntity */

@@ -48,7 +48,6 @@ use function uniqid;
 use function version_compare;
 
 class MigrationManager {
-
 	/** @var callable[] */
 	private static $list = [];
 	private static $configDbToCheck = [];

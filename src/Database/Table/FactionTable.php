@@ -37,7 +37,6 @@ use ShockedPlot7560\FactionMaster\Manager\DatabaseManager;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class FactionTable implements TableInterface {
-
 	/** @var PDO */
 	private $PDO;
 

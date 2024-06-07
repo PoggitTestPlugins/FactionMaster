@@ -33,12 +33,11 @@
 namespace ShockedPlot7560\FactionMaster\Command\Subcommand;
 
 use pocketmine\command\CommandSender;
-use ShockedPlot7560\FactionMaster\Utils\Utils;
 use ShockedPlot7560\FactionMaster\Manager\CommandManager;
+use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function str_replace;
 
 class HelpCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_HELP_DESCRIPTION";
 	}
@@ -52,7 +51,7 @@ class HelpCommand extends FactionSubCommand {
 		$sender->sendMessage($this->getString("/f", "COMMAND_FACTION_DESCRIPTION"));
 		foreach (CommandManager::getCommands() as $command) {
 			if ($command->testPermissionSilent($sender)) {
-				$sender->sendMessage($this->getString("/f " .$command->getUsageMessage(), $command->getId()));
+				$sender->sendMessage($this->getString("/f " . $command->getUsageMessage(), $command->getId()));
 			}
 		}
 	}

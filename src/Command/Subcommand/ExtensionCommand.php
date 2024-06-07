@@ -38,7 +38,6 @@ use ShockedPlot7560\FactionMaster\Manager\ExtensionManager;
 use ShockedPlot7560\FactionMaster\Utils\Utils;
 
 class ExtensionCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_EXTENSION_DESCRIPTION";
 	}

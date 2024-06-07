@@ -47,7 +47,6 @@ use function floor;
 use function join;
 
 class RemoveNearLeaderboardCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_SCOREBOARD_REMOVE_DESCRIPTION";
 	}

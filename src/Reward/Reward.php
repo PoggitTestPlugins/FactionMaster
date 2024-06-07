@@ -33,7 +33,6 @@
 namespace ShockedPlot7560\FactionMaster\Reward;
 
 class Reward {
-
 	/** @var string */
 	protected $nameSlug = "UNKNOW";
 	/** @var string|null */

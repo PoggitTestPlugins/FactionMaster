@@ -41,7 +41,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function floor;
 
 class ClaimInfoCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_CLAIM_INFO_DESCRIPTION";
 	}

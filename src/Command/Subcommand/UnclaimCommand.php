@@ -43,7 +43,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function floor;
 
 class UnclaimCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_UNCLAIM_DESCRIPTION";
 	}

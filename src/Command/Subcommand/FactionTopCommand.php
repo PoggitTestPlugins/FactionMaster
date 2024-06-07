@@ -51,7 +51,6 @@ use function implode;
 use function str_replace;
 
 class FactionTopCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_TOP_DESCRIPTION";
 	}

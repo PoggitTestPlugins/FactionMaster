@@ -44,7 +44,6 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function count;
 
 class AddFlagCommand extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_ADD_FLAG";
 	}

@@ -34,7 +34,6 @@ namespace ShockedPlot7560\FactionMaster\Route;
 use ShockedPlot7560\FactionMaster\Database\Entity\InvitationEntity;
 
 abstract class InvitationBase extends RouteBase {
-
 	/** @var InvitationEntity */
 	protected $invitation;
 

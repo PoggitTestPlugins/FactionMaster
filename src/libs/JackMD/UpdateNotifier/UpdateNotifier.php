@@ -37,7 +37,6 @@ use pocketmine\Server;
 use ShockedPlot7560\FactionMaster\libs\JackMD\UpdateNotifier\task\UpdateNotifyTask;
 
 class UpdateNotifier {
-
 	/**
 	 * Submits an async task which then checks if a new version for the plugin is available.
 	 * If an update is available then it would print a message on the console.

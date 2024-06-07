@@ -67,7 +67,6 @@ use function count;
 use function is_string;
 
 class ScoreHudListener implements Listener {
-
 	/** @var Server */
 	private $server;
 

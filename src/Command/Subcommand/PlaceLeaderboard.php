@@ -45,7 +45,6 @@ use function implode;
 use function join;
 
 class PlaceLeaderboard extends FactionSubCommand {
-
 	public function getId(): string {
 		return "COMMAND_SCOREBOARD_DESCRIPTION";
 	}
