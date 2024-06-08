@@ -2,8 +2,6 @@
 
 /*
  *
-
-
  *      ______           __  _                __  ___           __
  *     / ____/___ ______/ /_(_)___  ____     /  |/  /___ ______/ /____  _____
  *    / /_  / __ `/ ___/ __/ / __ \/ __ \   / /|_/ / __ `/ ___/ __/ _ \/ ___/
@@ -26,8 +24,6 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
-
-
  * @author ShockedPlot7560
  * @link https://github.com/ShockedPlot7560
  *
@@ -37,6 +33,8 @@
 namespace ShockedPlot7560\FactionMaster\Extension;
 
 interface Extension {
+
+	
 	/**
 	 * Define here, all the lang file to load in the main Plugin
 	 */
