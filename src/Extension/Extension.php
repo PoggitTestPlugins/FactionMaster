@@ -54,4 +54,9 @@ interface Extension {
 	public function getExtensionName(): string;
 
 	public function    test():     void;
+
+
+
+
+	
 }
