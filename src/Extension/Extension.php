@@ -52,4 +52,6 @@ interface Extension {
 	public function getLangConfig(): array;
 
 	public function getExtensionName(): string;
+
+	public function    test():     void;
 }
