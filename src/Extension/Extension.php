@@ -38,7 +38,11 @@ interface Extension {
 	 */
 	public function onLoad();
 
-	public function execute(): void;
+
+	public function execute(): void
+	
+	
+	;
 
 	/**
 	 * Give the Config instance correspond to the translate files for the extension
