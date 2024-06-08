@@ -42,8 +42,6 @@ interface Extension {
 	 */
 	public function onLoad();
 
-	
-
 	public function execute(): void
 
 	;
