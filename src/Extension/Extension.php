@@ -33,6 +33,8 @@
 namespace ShockedPlot7560\FactionMaster\Extension;
 
 interface Extension {
+
+	
 	/**
 	 * Define here, all the lang file to load in the main Plugin
 	 */
